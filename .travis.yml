@@ -4,6 +4,9 @@ install:
 before_script:
 - npm start
 
+script:
+-npm test
+
 language: node_js
 node_js:
 - "7"
