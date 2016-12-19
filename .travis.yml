@@ -1,0 +1,10 @@
+install:
+- npm install
+
+before_script:
+- npm start
+
+language: node_js
+node_js:
+- "7"
+- "6"
